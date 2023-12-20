@@ -10,7 +10,7 @@ function Navbar({ searchdata }){
           <Logo/>
         </a>
         <Search className="search" placeholder={"Search a album of your choice"} searchdata={searchdata}/>
-        <Button>Give Feedback</Button> 
+        <Button  class={styles.feedback}>Give Feedback</Button> 
 
     </nav>
     </>
