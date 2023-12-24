@@ -3,12 +3,13 @@ import Logo from "../Logo/Logo";
 import Button from "../Button/Button"
 import Search from "../Search/Search";
 import styles from "./Navbar.module.css"
+import { Link } from "@mui/material";
 function Navbar({ searchdata }){
     return(<>
     <nav className={styles.navbar}>
-        <a href="/">
+        <Link to="/">
           <Logo/>
-        </a>
+        </Link>
         <Search className="search" placeholder={"Search a album of your choice"} searchdata={searchdata}/>
         <Button  class={styles.feedback}>Give Feedback</Button> 
 
