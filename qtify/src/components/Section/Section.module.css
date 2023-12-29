@@ -22,3 +22,8 @@
 cursor: pointer;
 color: var(--color-primary);
 }
+
+.filterWrapper1{
+    margin-top: 15px;
+    
+}
