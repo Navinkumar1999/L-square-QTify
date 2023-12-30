@@ -14,7 +14,7 @@ return (
     <div className={styles.wrapper}>
         <Section title="Top Albums" data={topAlbums} type="album"/>
         <Section title="New Albums" data={newAlbums} type="album"/>
-        <Section title="Songs" data={topAlbums} 
+        <Section title="Songs" data={songs} 
             filterSource={fetchFilters}    type="song"/>
     </div>
     </>

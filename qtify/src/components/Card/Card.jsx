@@ -32,6 +32,7 @@ function Card({data ,type}){
     
             }
             case "song":{
+                console.log(data);
                 const {image,likes,title} =data;
                 return(
                 <div className={styles.wrapper}>
